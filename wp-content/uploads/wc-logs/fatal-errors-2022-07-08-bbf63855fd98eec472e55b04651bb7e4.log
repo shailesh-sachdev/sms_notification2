@@ -1,0 +1,2 @@
+2022-07-08T20:05:25+00:00 CRITICAL Out of memory (allocated 50331648) (tried to allocate 32768 bytes) in C:\xampp\htdocs\sms_notification\wp-admin\includes\media.php on line 3580
+

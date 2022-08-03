@@ -1,0 +1,12 @@
+2022-07-14T18:43:47+00:00 CRITICAL Uncaught Twilio\Exceptions\ConfigurationException: Credentials are required to create a Client in C:\xampp\htdocs\sms_notification\wp-content\plugins\wpem-sms-notifications\vendor\twilio\sdk\src\Twilio\Rest\Client.php:173
+Stack trace:
+#0 C:\xampp\htdocs\sms_notification\wp-content\plugins\wpem-sms-notifications\wpem-sms-notifications-functions.php(18): Twilio\Rest\Client->__construct(NULL, NULL)
+#1 C:\xampp\htdocs\sms_notification\wp-includes\class-wp-hook.php(309): user_reg_func(17)
+#2 C:\xampp\htdocs\sms_notification\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\sms_notification\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sms_notification\wp-includes\user.php(2316): do_action('user_register', 17, Array)
+#5 C:\xampp\htdocs\sms_notification\wp-admin\includes\user.php(229): wp_insert_user(Array)
+#6 C:\xampp\htdocs\sms_notification\wp-admin\user-new.php(189): edit_user()
+#7 {main}
+  thrown in C:\xampp\htdocs\sms_notification\wp-content\plugins\wpem-sms-notifications\vendor\twilio\sdk\src\Twilio\Rest\Client.php on line 173
+
