@@ -10,6 +10,16 @@
 
 	
 // }
+
+$sid = $_GET['sid'];
+echo($sid);
+if(get_option( 'sid') === null){
+	add_option('sid',$sid);
+	update_option('sid',$sid);
+
+}
+update_option('sid',$sid);
+print_r($sid);
 ?>
 <div class="card">
 	<div class="card-header">
@@ -17,11 +27,11 @@
 			Welcome to WPEM SMS Notifications Plugin <br>
 			Please Fill the TWILIO SID & Auth code 
 		</h5>
-		<form action="">
+		<form action="" method="get">
 			<ul class="list-group list-group-flush">
 				<li class="list-group-item">
 					<label for="sid">SID</label>
-					<input type="text" name="sid">
+					<input type="text" name="sid" value=<?php echo($sid);?>>
 				</li>
 				<li class="list-group-item">
 					<label for="auth">AUTH</label>
