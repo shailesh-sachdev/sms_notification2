@@ -1,0 +1,4 @@
+2022-08-04T20:23:01+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\sms_notification\wp-content\plugins\wpem_messaging 1\admin\partials\wpem-admin-page.php on line 18
+
+2022-08-04T20:23:11+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\sms_notification\wp-content\plugins\wpem_messaging 1\admin\partials\wpem-admin-page.php on line 18
+
